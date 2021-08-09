@@ -42,3 +42,50 @@ body {
 .sidebar .nav-link:hover {
   color: aquamarine;
 }
+
+/*CONTACT CSS*/
+.contactMain {
+  width: 60%;
+  margin: 0px auto;
+  background-color: #ad9384;
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 20px;
+}
+.footerHobby {
+  background-color: rgb(56, 56, 56);
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+.footerHobby form {
+  width: 30%;
+  text-align: left;
+  float: left;
+}
+.footerHobby button {
+  background-color: #ad9384;
+  border:none;
+  color: black;
+}
+.footerHobby button:hover {
+  background-color: #784c3e;
+  border: none;
+  color: white;
+}
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+.fa:hover {
+  text-decoration: none;
+}
+
+/*HOBBY CSS*/
