@@ -42,6 +42,35 @@ body {
 .sidebar .nav-link:hover {
   color: aquamarine;
 }
+/*HOBBIES CSS*/
+.hobbiesMain {
+  width: 80%;
+  margin: 0px auto;
+  background-color: #ad9384;
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 20px;
+  color: white;
+}
+.hobbiesMain .card {
+  background-color: #784c3e;
+  margin-bottom: 15px;
+}
+.hobbyButton {
+  background-color: #d4c5bc;
+  border:none;
+  color: black;
+}
+.hobbyButton:hover {
+  background-color: #ad9384;
+  border: none;
+  color: white;
+}
+.card-img-top {
+  width: 100%;
+  height: 20vw;
+  object-fit: cover;
+}
 
 /*CONTACT CSS*/
 .contactMain {
@@ -51,6 +80,16 @@ body {
   margin-top: 15px;
   padding: 15px;
   border-radius: 20px;
+}
+.contactMain button:hover {
+  background-color: #d4c5bc;
+  border:none;
+  color: black;
+}
+.contactMain button {
+  background-color: #784c3e;
+  border: none;
+  color: white;
 }
 .footerHobby {
   background-color: rgb(56, 56, 56);
